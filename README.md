@@ -62,14 +62,14 @@ Make sure to replace `path/to/map.cub` with the actual path of a valid map file.
 The map file should have the `.cub` extension and follow a specific format. Here's an example of a valid map file:
 
 ```
-R 1920 1080
 NO ./textures/north.xpm
 SO ./textures/south.xpm
 WE ./textures/west.xpm
 EA ./textures/east.xpm
-S ./textures/sprite.xpm
-F 255,255,255
+
 C 0,0,0
+F 255,255,255
+
 1111111111111111111111111
 1000000000110000000000001
 1011000001110000002000001
@@ -82,7 +82,6 @@ C 0,0,0
 ```
 The map file consists of several elements:
 
-- Resolution (R): Specifies the window's resolution.
 - Texture paths (NO, SO, WE, EA, S): Specifies the paths to the textures used for walls and sprites.
 - Ceiling and floor colors (F, C): Specifies the RGB color values for the ceiling and floor.
 - Map: A grid of characters representing the game world, where 1 represents a wall, 0 represents an empty space, and other characters can be used to represent different elements.
