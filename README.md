@@ -56,7 +56,7 @@ Here's an example of how to run the engine:
 $ make
 $ ./cub3d path/to/map.cub
 ```
-Make sure to replace path/to/map.cubwith the actual path of a valid map file.
+Make sure to replace `path/to/map.cub` with the actual path of a valid map file.
 
 ### Map File Format
 The map file should have the `.cub` extension and follow a specific format. Here's an example of a valid map file:
